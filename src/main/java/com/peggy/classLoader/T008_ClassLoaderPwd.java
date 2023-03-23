@@ -67,6 +67,7 @@ public class T008_ClassLoaderPwd extends ClassLoader {
         return super.findClass(name);
     }
 
+
     public static void main(String[] args) {
         ClassLoader l = new T008_ClassLoaderPwd();
         Class aClass = null;
