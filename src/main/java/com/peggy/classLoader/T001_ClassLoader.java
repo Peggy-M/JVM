@@ -17,7 +17,6 @@ public class T001_ClassLoader {
         System.out.println(String.class.getClassLoader());
         //该类也是一个核心类库所以加载的是 Bootstrap 类加载器所以也为空值
         System.out.println(sun.awt.HKSCS.class.getClassLoader());
-
         //该类由 Extension 类加载器 加载
         System.out.println(sun.net.spi.nameservice.dns.DNSNameService.class.getClassLoader());
         //该类是由 App 类加载器加载
